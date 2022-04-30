@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.form__inputs{
+    @apply
+    appearance-none
+    h-[30px]
+    w-full
+    px-2
+    
+}
+
+
+.form__label {
+    @apply
+    text-[28px]
+}
+
+.form__btn{
+    @apply
+    bg-[#dddd]
+    
+}
